@@ -70,7 +70,7 @@ By default @SimplePageAuthorizationStrategy@ checks for permissions only on page
 
 h3. Role-based strategies
 
-At the end of paragraph 20.1 we have introduced AbstractAuthenticatedWebSession's method getRoles which is provided to support role-based authorization returning the set of roles granted to the current user.
+At the end of paragraph 21.1 we have introduced AbstractAuthenticatedWebSession's method getRoles which is provided to support role-based authorization returning the set of roles granted to the current user.
 
 In Wicket roles are simple strings like “BASIC_USER” or “ADMIN” (they don't need to be capitalized) and they are handled with class @org.apache.wicket.authroles.authorization.strategies.role.Roles@. This class extends standard HashSet collection adding some functionalities to check whether the set contains one or more roles. Class @Roles@ already defines roles Roles.USER and Roles.ADMIN.
 
